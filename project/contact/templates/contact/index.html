@@ -1,0 +1,327 @@
+{% extends 'contact/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<div class="top-header container-fluid">
+    <div class="row">
+        <div class="col-lg-2">
+            <i class="fa fa-phone"></i><span class="tab">08001182291</span>
+        </div>
+        <div class="col-lg-6">
+            <i class="far fa-envelope"></i><span class="tab">service@tkckitchens.co.uk</span>
+        </div>
+        <div class="col-lg-4 right-col">
+            <form class="m-0 d-flex align-self-center" action="/searchresults/" method="POST">
+                <input type="hidden" name="csrfmiddlewaretoken"
+                    value="4yiFT1zEfGov2YCVKISLwuhtZIrGFJV66p8DMSdQ1hJ0rfULM5fyOgGl4fC2wqeZ">
+                <button class="btn btn-success" style="background-color: transparent;border: 0;">
+                    <i class="fas fa-search" style="color: #707070;"></i>
+                </button>
+                <input type="text" name="search" placeholder="Search..." class="form-control">
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content:center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kitchen Styles</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                        WorkTops
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="#">Solid Surface Worktops</a>
+
+                        <a class="dropdown-item" href="#">Solid Laminate
+                            Worktops</a>
+
+                        <a class="dropdown-item" href="#">Stone Worktops</a>
+
+                        <a class="dropdown-item" href="#">Laminate Worktops</a>
+
+                        <a class="dropdown-item" href="#">Wood Worktops</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                        Appliances
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="#">Cooker Hood</a>
+
+                        <a class="dropdown-item" href="#">Cooking</a>
+
+                        <a class="dropdown-item" href="#">Refrigeration</a>
+
+                        <a class="dropdown-item" href="#">Laundry</a>
+
+                        <a class="dropdown-item" href="#">Dishwashers</a>
+
+                        <a class="dropdown-item" href="#">Hobs</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Installation</a>
+                        <a class="dropdown-item" href="#">Design</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                        Kitchen Trends
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Trends</a>
+
+                        <a class="dropdown-item" href="#">Cutler Tray</a>
+
+                        <a class="dropdown-item" href="#">Wirework</a>
+
+                        <a class="dropdown-item" href="#">Bins</a>
+
+                        <a class="dropdown-item" href="#">Lighting</a>
+
+                        <a class="dropdown-item" href="#">Sinks &amp; Taps</a>
+
+                        <a class="dropdown-item" href="#">Handles</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="#" class="btn">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn">Register</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+<!-- banner -->
+<div class="container-fluid contact-banner">
+    <div class="row contact-banner-inner">
+        <div class="contact-banner-heading container">
+            <h1>Contact Us</h1>
+            <p>
+                We consider our customer's feedback and queries very important.<br>
+                Contact us through following form regarding feedback or any<br>
+                questions
+            </p><br>
+            <div class="fonts-in-banner">
+                <i class="fa fa-phone"></i><span class="tab">08001182291</span><br>
+                <i class="far fa-envelope"></i><span class="tab">service@tkckitchens.co.uk</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container choose-us-contact-us">
+    <h1>Free Kitchen Design & Planning Advice</h1>
+    <p style="font-size: 30px;">
+        With our years of experience our designer will design Your Perfect Kitchen.<br> Make that Kitchen design a
+        Reality.
+    </p>
+</div>
+
+<!--Contact Form-->
+<div class="container contact-form">
+    <div class="row contact-row">
+        <div class="col-sm-6 book-text">
+            <h1>Book A Free Appointment Today</h1><br>
+            <p>
+                CHAT TO US Either Online here or Book your free kitchen design consultation with one of
+                our designers by filling the below form? You can chat through anything you need,
+                including layout and design requirements.
+                You can even see what your kitchen will look like before you buy it.
+            </p>
+        </div>
+        <div class="col-1"></div><br>
+        <div class="col-sm my-form">
+            <form action="" method="post">
+                {% csrf_token %}
+                <input type="text" placeholder="Name" required name="name"><br>
+                <input type="email" placeholder="Email" required name="email"><br>
+                <input type="text" placeholder="Phone No" required name="phone"><br>
+                <textarea placeholder="Detail" required name="detail" class="form-control"></textarea>
+
+                <label class="further-info">
+                    For further information about how we use your personal data
+                    please see our <a href="#">GDRP Policy</a> and <a href="#">Terms &
+                        Conditions</a>.
+                </label><br>
+
+                <div class="g-recaptcha mx-auto" data-callback="recaptchaCallback" style="width: fit-content"
+                    data-sitekey="6LeKPnocAAAAAEnW1LncwgOqxXCQ3yqIWMs2rIxm"></div>
+                <div class="col-sm text-center" style="padding-bottom: 15px;">
+                    <button type="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container free-call-container" style="padding-bottom: 20px;">
+    <div class="row free-call-text">
+        <div class="col-sm-5">
+            <h2>
+                Give Us A Call and Get A Free Quote!
+            </h2><br>
+            <p>
+                We can Plan, Design,Supply and Install the kitchen the material or fit the kitchen.
+                Your house is your home but it’s also your investment. In the long term it is worthwhile getting
+                the best possible plan, design and installation. We provide quality materials that are stylish but
+                also practical.
+            </p>
+            <p>
+                We check the market on a regular basis and compare our prices with well known national warehouse
+                kitchen suppliers and we know we can Save you Money.
+
+            </p>
+        </div>
+        <div class="col">
+            <img width="100%" style="border-radius: 4px;" src="{% static 'contact/images/2.png' %}" alt="image">
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="news">
+    <div class="modal-dialog modal-dialog-centered">
+        <div style="border: 4px solid green!important;" class="modal-content">
+            <div class="modal-header">
+                <h4 id="msg" class="text-center"></h4>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="bg-dark text-white p-4" id="footer">
+    <div class="p-4" id="footer" style="width: 90%;margin: auto">
+        <div class="row pb-2 m-0" id="search_in">
+            <div class="col-lg-6 align-content-middle p-0" id="search_in">
+                <h3 class="m-0 p-2">Signup for our Newsletter</h3>
+            </div>
+
+            <div class="col-lg-6 d-flex justify-content-right align-self-center" id="search_in">
+                <input type="email" placeholder="Your Email" class="form-control" id="search_in"
+                    style="width: 50%!important;">
+                <button data-target="#news" data-toggle="modal" onclick="subscribe1(event)" class=" btn btn-success "
+                    style="height: 70%">Subscribe</button>
+                <p id="sub" class="ml-2 align-self-center m-0"></p>
+            </div>
+        </div>
+        <hr class="bg-white" />
+        <div class="d-flex justify-content-around block">
+            <div class="">
+                <p><i class="fas fa-map-marker-alt"></i><span class="p-2">5 Piccadilly Place, Manchester, M1
+                        3BR</span></p>
+                <p><i class="fas fa-phone-alt align-self-center"></i><a style="color:inherit;text-decoration: none"
+                        href="#" class="m-0 p-2">08001182291</a></p>
+                <p><i class="fas fa-envelope align-self-center"></i><a style="color: inherit;text-decoration: none;"
+                        href="#" class="m-0 p-2">service@tkckitchens.co.uk</a></p>
+                <div class="my-3">
+                    <img src="{% static 'contact/images/Payment.png' %}" loading="lazy" id="pay" width="100%" height="50px"
+                        alt="tkc-kitchen payment">
+                </div>
+
+
+            </div>
+            <div class="align-self-baseline">
+                <p>
+                    <a style="text-decoration: none;color: inherit" href="#" class="a_btn mb-2">Terms & conditions</a>
+                </p>
+                <p><a style="text-decoration: none;color: inherit" href="#" class="a_btn mb-2">Shipping and Delivery
+                        policy</a></p>
+                <p><a class="a_btn" href="#" style="text-decoration: none;color: inherit">Customer
+                        Service</a>
+                </p>
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">FAQs</a></p>
+            </div>
+            <div class="">
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">Return &
+                        Refund policy</a></p>
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">Cancellation policy</a></p>
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">GDPR policy</a></p>
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">Cookies policy</a>
+                </p>
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">Intellectual property
+                        notification</a></p>
+                <p><a href="#" class="a_btn" style="color: inherit;text-decoration: none">Disclaimer
+                        policy</a></p>
+                <p><a class="a_btn" style="color: inherit;text-decoration: none">Ziegal Ltd(10914681)</a></p>
+
+            </div>
+            <div class="">
+                <a href="https://www.facebook.com/tkckitchens.co.uk" class="d-block"
+                    style="margin-bottom: 1rem;color: inherit;text-decoration: none"><i
+                        class="fab fa-facebook-f"></i><span class="pl-2">Facebook</span></a>
+                <a href="https://www.pinterest.co.uk/TKCkitchens/_created/" class="d-block"
+                    style="margin-bottom: 1rem;color: inherit;text-decoration: none"><i
+                        class="fab fa-pinterest-p"></i><span class="pl-2">Pinterest</span></a>
+                <a href="https://www.instagram.com/tkckitchens.co.uk/" class="d-block"
+                    style="margin-bottom: 1rem;color: inherit;text-decoration: none"><i
+                        class="fab fa-instagram"></i><span class="pl-2">Instagram</span></a>
+            </div>
+        </div>
+    </div>
+    <p class="text-center border-top border-bottom m-0 p-3">Copyright&copy; 2021 TKC KITCHENS</p>
+
+</div>
+
+
+{% endblock content %}
